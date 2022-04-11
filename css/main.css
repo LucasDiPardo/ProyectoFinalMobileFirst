@@ -25,6 +25,7 @@
     color: #fdd100;
     padding: 1rem;
     text-align: center;
+    align-items: center;
 }
 
 /*Barra Menu*/
@@ -36,6 +37,7 @@
 }
 .c-logo{
     padding: .5rem;
+    align-self: center;
 }
 .c-itemNav{
     display: flex;
@@ -59,12 +61,36 @@
     grid-area: main;
     padding: 1rem;
 }
+.c-main section{
+    text-align: center;
+}
+.c-main section iframe{
+    max-height: 200px;
+    max-width: 350px;
+    margin: 1rem;
+}
+.c-fotosInicio{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+.c-fotosInicio div img{
+    max-height: 500px;
+    max-width: 350px;
+    margin: 2rem;
+}
 
 /*Aside*/
 
 .c-aside{
     grid-area: aside;
     padding: 1rem;
+}
+.c-aside p{
+    text-align: center;
+    padding: 2rem;
 }
 
 /*Footer*/
@@ -86,5 +112,71 @@
     padding: .5rem;
 }
 
+/*Nosotros*/
 
+.c-contNosotros{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.c-contNosotros div img{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 1rem;
+}
+.c-contNosotros div p{
+    padding: 2rem;
+    text-align: center;
+}
+.c-asideNosotros{
+    text-align: center;
+    padding: 2rem;
+}
+
+/*Portfolio*/
+
+.c-contPortfolio{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.c-imgPortfolio{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 2rem;
+}
+.c-asidePortfolio{
+    text-align: center;
+    margin: 1rem;
+}
+
+/*Novedades*/
+
+.c-contNovedades{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-contNovedades div{
+    margin: 2rem;
+}
+
+.c-contNovedades div h3{
+    text-align: center;
+    margin: 1rem;
+}
+.c-contNovedades div p{
+    text-align: center;
+    margin: 1rem;
+}
+.c-videoNovedades1, .c-videoNovedades2, .c-videoNovedades3{
+    text-align: center;
+}
+.c-videoNovedades1 iframe, .c-videoNovedades2 iframe, .c-videoNovedades3 iframe {
+    max-height: 200px;
+    max-width: 350px;
+    margin: 1rem;
+}
 
