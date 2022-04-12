@@ -286,7 +286,7 @@
     .c-main section div img{
         width: 300px;
         height: 550px;
-        transition: 1s;
+        transition: .9s;
     }
     .c-main section div img:hover{
         transform: scale(0.8);
@@ -294,7 +294,6 @@
 
     .c-botonArriba:hover{
         box-shadow: #202020 2px 3px;
-        transition: .3s;
-    }
-    
+        transition: .4s;
+    }    
 }
